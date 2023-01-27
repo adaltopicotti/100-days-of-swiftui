@@ -1,3 +1,6 @@
+[submodule "day-16-24/WeSplit"]
+	path = day-16-24/WeSplit
+	url = https://github.com/adaltopicotti/WeSplit
 [submodule "day-16-24/Convertex"]
 	path = day-16-24/Convertex
 	url = https://github.com/adaltopicotti/Convertex.git
