@@ -1,6 +1,3 @@
-[submodule "day-16-24/convertex"]
-	path = day-16-24/convertex
-	url = https://github.com/adaltopicotti/convertex.git
 [submodule "day-16-24/Convertex"]
 	path = day-16-24/Convertex
 	url = https://github.com/adaltopicotti/Convertex.git
