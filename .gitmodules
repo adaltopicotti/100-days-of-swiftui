@@ -4,3 +4,6 @@
 [submodule "day-16-24/Convertex"]
 	path = day-16-24/Convertex
 	url = https://github.com/adaltopicotti/Convertex.git
+[submodule "day-16-24/GuessTheFlag"]
+	path = day-16-24/GuessTheFlag
+	url = https://github.com/adaltopicotti/GuessTheFlag.git
