@@ -129,7 +129,9 @@ struct ContentView: View {
                 } else {
                     VStack {
                         Text("Game options")
+                            .foregroundColor(Color(red: 0.5, green: 0.2, blue: 1))
                             .font(.title)
+                            
                         VStack {
                             VStack {
                                 Text("Select the multiplication tables you want to pratice:")
@@ -191,6 +193,7 @@ struct ContentView: View {
                 
             }
             .navigationTitle("Edutainment")
+            .foregroundColor(.black)
         }
         
     }
