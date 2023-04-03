@@ -28,6 +28,8 @@ struct ContentView: View {
                             Text(item.amount, format: .currency(code: Locale.current.currencyCode ?? "BRL"))
                                 .foregroundColor(item.amount < 10 ? .green : (item.amount > 100 ? .red : .blue))
                         }
+                        .accessibilityElement()
+                        .accessibilityLabel("\(item.name) \(item.amount, format: .currency(code: Locale.current.currencyCode ?? "BRL"))")
                         
                     }
                     

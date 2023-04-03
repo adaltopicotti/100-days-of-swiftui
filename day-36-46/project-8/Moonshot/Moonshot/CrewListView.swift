@@ -33,6 +33,7 @@ struct CrewListView: View {
                                     Capsule()
                                         .strokeBorder(.white, lineWidth: 1)
                                 )
+                                .accessibilityHidden(true)
                             
                             VStack(alignment: .leading) {
                                 Text(crewMember.astronaut.name)
@@ -42,6 +43,9 @@ struct CrewListView: View {
                                 Text(crewMember.role)
                                     .foregroundColor(.secondary)
                             }
+                            .accessibilityElement()
+                            .accessibilityLabel(crewMember.astronaut.name)
+                            .accessibilityHint(crewMember.role)
                         }
                         .padding(.horizontal)
                     }
